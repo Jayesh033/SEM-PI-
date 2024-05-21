@@ -1,0 +1,296 @@
+#topbar {
+    background: #106eea;
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+}
+
+#topbar .contact-info i {
+    font-style: normal;
+    color: #fff;
+}
+
+#topbar .contact-info i a, #topbar .contact-info i span {
+    padding-left: 5px;
+    color: #fff;
+}
+
+#topbar .contact-info i a {
+    line-height: 0;
+    transition: 0.3s;
+    transition: 0.3s;
+}
+
+#topbar .contact-info i a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#topbar .social-links a {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 0;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+
+#topbar .social-links a:hover {
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.2rem;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+
+.subHeading {
+    font-weight: 700;
+    font-size: 2.3rem;
+    /*margin: 2rem 0rem;*/
+    margin-top: 25px;
+    margin-right: 35px;
+    margin-left: 25px;
+}
+
+.subText {
+    font-size: 2.2rem;
+    /*margin: 2rem 0rem;*/
+    margin-right: 35px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.firstPageSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*margin: 2rem 0.2rem;*/
+    margin-right: 35px;
+    margin-left: 25px;
+}
+
+.textSection {
+    width: 70%;
+    /*padding: 0rem 3rem;*/
+    margin-right: 35px;
+    margin-left: 25px;
+}
+
+.imageSection {
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 35px;
+    margin-left: 25px;
+   
+    
+    
+}
+
+
+
+.imageSection img {
+    height: 90%;
+    width: 90%;
+    
+     
+}
+
+.buttonDiv {
+    /* margin: 3rem 0rem; */
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.buttonDiv button {
+    border-radius: 3.5rem;
+    padding: 0.5rem 1.2rem;
+    margin: 2rem 4rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #4e35c5;
+}
+
+.secondPageSection {
+    margin: 3rem 0rem;
+
+}
+
+.firstSection2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.imageSection2 {
+    width: 40%;
+    /* padding: 0rem 2.5rem; */
+}
+
+.imageSection2 img {
+    height: 90%;
+    width: 100%;
+    margin: 0rem 2rem;
+}
+
+.textSection2 {
+    width: 50%;
+}
+
+.section2Heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.section2SubHeading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1.5rem 0rem;
+}
+
+.section2Text {
+    font-size: 1.7rem;
+    padding-right: 5rem;
+    margin-left: 0.5px;
+    margin-right: 20px;
+
+    
+}
+
+.section2Text1 {
+    width: 45%;
+    padding: 0rem 2rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+.thirdSection3Heading {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: 2rem 0rem;
+    
+}
+
+.thirdSectionSubHeading {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.thirdSectionText {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0rem 20rem;
+
+}
+/* For mobile */
+@media (max-width: 767px) {
+    #topbar {
+        height: 60px;
+        font-size: 12px;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .subHeading {
+        font-size: 1.8rem;
+    }
+
+    .subText {
+        font-size: 1.7rem;
+    }
+
+    .firstPageSection {
+        flex-direction: column;
+    }
+
+    .textSection {
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+
+    .imageSection {
+        width: 100%;
+        padding: 1rem 0rem;
+    }
+
+    .buttonDiv button {
+        margin: 1.5rem 2rem;
+        font-size: 1.8rem;
+    }
+
+    .firstSection2 {
+        flex-direction: column;
+  }
+
+    .imageSection2 {
+        width: 100%;
+        padding: 0rem 1rem;
+  }
+
+    .imageSection2 img {
+        height: auto;
+        width: 100%;
+        margin: 1rem 0rem;
+    }
+
+    .textSection2 {
+        width: 100%;
+  }
+
+    .section2Heading {
+        font-size: 2.5rem;
+    }
+
+    .section2SubHeading {
+        font-size: 1.8rem;
+        margin: 1rem 0rem;
+    }
+
+    .section2Text, .section2Text1 {
+        width: 100%;
+        padding: 0rem 1rem;
+  }
+
+    .thirdSection3Heading {
+        font-size: 1.8rem;
+    }
+
+    .thirdSectionSubHeading {
+        font-size: 1rem;
+  }
+
+    .thirdSectionText {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        padding: 0rem 1rem;
+    }
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* For desktops */
+@media (min-width: 1025px) {
+    /* Keep the original styles */
+}
